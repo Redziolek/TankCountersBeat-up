@@ -1,0 +1,21 @@
+@font-face {
+  font-family: brawlFont;
+  src: url(brawl_font.ttf);
+}
+
+@font-face {
+  font-family: brawlFont2;
+  src: url(Brawl_font2.ttf);
+}
+
+.text {
+  color: white;
+  font-family: brawlFont;
+  font-size: large;
+}
+
+.text1 {
+  color: white;
+  text-align: center;
+  font-family: brawlFont2;
+}
