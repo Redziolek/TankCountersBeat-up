@@ -1,6 +1,6 @@
 .body {
   background-image: url("../images/body/background.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-color: black;
   justify-content: center;
   display: flex;
