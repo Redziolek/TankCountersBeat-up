@@ -1,71 +1,73 @@
-/*BODY*/
+@media only screen and (min-width: 1600px) {
+  /*BODY*/
 
-.body {
-  background-image: url("../images/body/background.png");
-  background-repeat: repeat-y;
-  background-color: black;
-  justify-content: center;
-  display: flex;
-  background-position: center;
-  margin-bottom: 0px;
-}
+  .body {
+    background-image: url("../images/body/background.png");
+    background-repeat: repeat-y;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    background-position: center;
+    margin-bottom: 0px;
+  }
 
-.header {
-  width: 1583px;
-  display: flex;
-}
+  .header {
+    width: 1583px;
+    display: flex;
+  }
 
-* {
-  margin: 0px;
-  padding: 0px;
-}
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
 
-/*DIVS*/
+  /*DIVS*/
 
-.divimg {
-  width: 250px;
-  height: 90px;
-}
+  .divimg {
+    width: 250px;
+    height: 90px;
+  }
 
-.div {
-  border: none;
-  height: 90px;
-  width: 250px;
-  top: 10px;
-  padding-left: 20px;
-  position: absolute;
-}
+  .div {
+    border: none;
+    height: 90px;
+    width: 250px;
+    top: 10px;
+    padding-left: 20px;
+    position: absolute;
+  }
 
-.div2 {
-  border: none;
-  height: 220px;
-  width: 450px;
-  top: 10px;
-  position: absolute;
-}
+  .div2 {
+    border: none;
+    height: 220px;
+    width: 450px;
+    top: 10px;
+    position: absolute;
+  }
 
-.div3 {
-  border: none;
-  height: 90px;
-  width: 250px;
-  top: 10px;
-  position: absolute;
-}
+  .div3 {
+    border: none;
+    height: 90px;
+    width: 250px;
+    top: 10px;
+    position: absolute;
+  }
 
-.div4 {
-  border: none;
-  position: absolute;
-  width: 920px;
-  margin-top: 270px;
-  padding: 2%;
-}
+  .div4 {
+    border: none;
+    position: absolute;
+    width: 920px;
+    margin-top: 270px;
+    padding: 2%;
+  }
 
-.mycontainer {
-  display: grid;
-  grid-template-columns: 18.5% 17.2% 29.8% 17.2% 0%;
-}
-.mycontainer > a {
-  width: 100%;
+  .mycontainer {
+    display: grid;
+    grid-template-columns: 18.5% 17.2% 29.8% 17.2% 0%;
+  }
+  .mycontainer > a {
+    width: 100%;
+  }
 }
 
 /*TEXT*/
@@ -90,10 +92,4 @@
   color: white;
   text-align: center;
   font-family: brawlFont2;
-}
-
-@media only screen and (max-width: 768px) {
-  .body {
-    width: 768px;
-  }
 }
