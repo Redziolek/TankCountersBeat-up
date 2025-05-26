@@ -1,72 +1,119 @@
+/*@media only screen and (min-width: 1600px) {
   /*BODY*/
 
-  .body {
-    background-image: url("../images/body/background.png");
-    background-repeat: repeat-y;
-    background-color: black;
-    justify-content: center;
-    display: flex;
-    background-position: center;
-    margin-bottom: 0px;
-  }
+.body {
+  background-image: url("../images/body/background.png");
+  background-repeat: repeat-y;
+  background-color: black;
+  justify-content: center;
+  display: flex;
+  background-position: center;
+  margin-bottom: 0px;
+}
 
-  .header {
-    width: 1583px;
-    display: flex;
-  }
+.header {
+  width: 1583px;
+  display: flex;
+}
 
-  * {
-    margin: 0px;
-    padding: 0px;
-  }
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
-  /*DIVS*/
+/*DIVS*/
 
-  .divimg {
-    width: 250px;
-    height: 90px;
-  }
+.divimg {
+  width: 250px;
+  height: 90px;
+}
 
-  .div {
-    border: none;
-    height: 90px;
-    width: 250px;
-    top: 10px;
-    padding-left: 20px;
-    position: absolute;
-  }
+.div {
+  border: none;
+  height: 90px;
+  width: 250px;
+  top: 10px;
+  padding-left: 20px;
+  position: absolute;
+}
 
-  .div2 {
-    border: none;
-    height: 220px;
-    width: 450px;
-    top: 10px;
-    position: absolute;
-  }
+.div2 {
+  border: none;
+  height: 220px;
+  width: 450px;
+  top: 10px;
+  position: absolute;
+}
 
-  .div3 {
-    border: none;
-    height: 90px;
-    width: 250px;
-    top: 10px;
-    position: absolute;
-  }
+.div3 {
+  border: none;
+  height: 90px;
+  width: 250px;
+  top: 10px;
+  position: absolute;
+}
 
-  .div4 {
-    border: none;
-    position: absolute;
-    width: 920px;
-    margin-top: 270px;
-    padding: 2%;
-  }
+.div4 {
+  border: none;
+  position: absolute;
+  width: 920px;
+  margin-top: 270px;
+  padding: 2%;
+}
 
-  .mycontainer {
-    display: grid;
-    grid-template-columns: 18.5% 17.2% 29.8% 17.2% 0%;
-  }
-  .mycontainer > a {
-    width: 100%;
-  }
+.cont1 {
+  margin-top: 15%;
+  margin-bottom: 20%;
+  display: grid;
+  grid-template-columns: 55% 45%;
+}
+
+.cont2 {
+  grid-template-columns: 50% 50%;
+}
+
+.cont3 {
+  grid-template-columns: 55% 45%;
+}
+
+.cont4 {
+  grid-template-columns: 50% 50%;
+}
+
+.cont5 {
+  grid-template-columns: 50% 50%;
+}
+
+.cont6 {
+  grid-template-columns: 50% 50%;
+}
+
+.cont7 {
+  grid-template-columns: 50% 50%;
+}
+
+.cont8 {
+  margin-bottom: 4%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.cont2,
+.cont3,
+.cont4,
+.cont5,
+.cont6,
+.cont7 {
+  display: grid;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.mycontainer {
+  display: grid;
+  grid-template-columns: 18.5% 17.2% 29.8% 17.2% 0%;
+}
+/*}
 
 /*TEXT*/
 
@@ -84,10 +131,12 @@
   color: white;
   font-family: brawlFont;
   font-size: x-large;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .text1 {
   color: white;
-  text-align: center;
   font-family: brawlFont2;
+  margin-bottom: 4%;
 }
